@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;500;700&display=swap");
+
+:root {
+  --main-active-color: #957dad;
+  --edit-color: rgb(173, 172, 125);
+  --delete-color: rgb(173, 125, 125);
+  --archive-color: rgb(173, 134, 90);
+  --unarchive-color: rgb(173, 147, 125);
+  --table-light-color: rgb(241, 241, 241);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Sora", sans-serif;
+}
+main {
+  width: 100vw;
+}
+header {
+  width: 100vw;
+}
