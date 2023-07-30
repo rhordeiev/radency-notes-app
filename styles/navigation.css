@@ -26,7 +26,6 @@ nav ul li::after {
   transition: all 0.2s;
   width: var(--nav-underline-width, 0);
   overflow-x: hidden;
-  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; */
 }
 nav ul li:nth-child(1)::after {
   transition: all 0.2s;
