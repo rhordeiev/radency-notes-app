@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1300px) {
+  main > div {
+    width: calc(80% + 2 * var(--table-inner-margin));
+  }
+  table {
+    width: 80vw;
+  }
+  .overlay-background form input,
+  .overlay-background form select,
+  .overlay-background form textarea {
+    width: 30vw;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  main > div {
+    width: calc(80% + 2 * var(--table-inner-margin));
+  }
+  table {
+    width: 80vw;
+  }
+  .overlay-background form input,
+  .overlay-background form select,
+  .overlay-background form textarea {
+    width: 25vw;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  nav ul {
+    width: 50%;
+  }
+  .overlay-background form input,
+  .overlay-background form select,
+  .overlay-background form textarea {
+    width: 30vw;
+  }
+}
+@media only screen and (max-width: 900px) {
+  * {
+    font-size: 0.95rem;
+  }
+  .default-button {
+    font-size: 0.95rem;
+  }
+  .form-header {
+    font-size: 1.3rem;
+  }
+  td button svg {
+    width: 95%;
+    height: 95%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  nav ul {
+    width: 70%;
+  }
+  main > div {
+    width: calc(93% + 2 * var(--table-inner-margin));
+  }
+  table {
+    width: 93vw;
+  }
+}
+@media only screen and (max-width: 700px) {
+  * {
+    font-size: 0.85rem;
+  }
+  .default-button {
+    font-size: 0.9rem;
+  }
+  td {
+    display: flex;
+    flex-direction: column;
+  }
+  td button svg {
+    width: 90%;
+    height: 90%;
+  }
+  .overlay-background form input,
+  .overlay-background form select,
+  .overlay-background form textarea {
+    width: 45vw;
+  }
+  .form-header {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  nav ul {
+    width: 90%;
+  }
+  table * {
+    font-size: 0.8rem;
+  }
+  .overlay-background form input,
+  .overlay-background form select,
+  .overlay-background form textarea {
+    width: 70vw;
+  }
+  .form-header {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 420px) {
+  td button svg {
+    width: 88%;
+    height: 88%;
+  }
+  table * {
+    font-size: 0.64rem;
+  }
+}
