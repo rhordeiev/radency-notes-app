@@ -5,8 +5,11 @@
   --edit-color: rgb(173, 172, 125);
   --delete-color: rgb(173, 125, 125);
   --archive-color: rgb(173, 134, 90);
-  --unarchive-color: rgb(173, 147, 125);
+  --unarchive-color: rgb(131, 173, 125);
   --table-light-color: rgb(241, 241, 241);
+  --border-radius: 0.8rem;
+  --box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  --table-inner-margin: 1rem;
 }
 
 * {
@@ -14,10 +17,40 @@
   margin: 0;
   padding: 0;
   font-family: "Sora", sans-serif;
+  overflow-x: hidden;
 }
 main {
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 header {
   width: 100vw;
+}
+main > div {
+  width: calc(60% + 2 * var(--table-inner-margin));
+  display: flex;
+  flex-direction: column;
+}
+.default-button {
+  background-color: var(--main-active-color);
+  font-size: 1rem;
+  border-radius: 0.6rem;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  margin-top: 0.5rem;
+  align-self: flex-end;
+  color: white;
+  box-shadow: var(--box-shadow);
+  transition: all 0.2s;
+}
+.default-button:active {
+  transform: scale(0.8);
+}
+.default-button:hover {
+  cursor: pointer;
+}
+.create-button {
+  margin-right: var(--table-inner-margin);
 }
